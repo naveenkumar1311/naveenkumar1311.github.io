@@ -1,2 +1,2 @@
-# naveenkumar1311
-Portfolio website
+# naveenkumar1311.github.io
+portfolio
