@@ -68,17 +68,18 @@ body a:hover{
 /*-- //to-top --*/
 /*-- resume --*/
 .header-top{
-	background:rgb(202, 207, 207);
-	padding:20px 0;
+	background:rgb(253, 250, 244);
+	padding:22px 0;
 }
 .header-top ul li a {
     color: #000;
-    font-size: 14px;
+    font-size: 17px;
     text-decoration: none;
 	outline:none;
+	font-weight: bold;
 }
 .header-top ul li a span {
-    margin-right: 7px;
+    margin-right: 10px;
 }
 .header-top ul li {
     list-style-type: none;
@@ -88,30 +89,25 @@ body a:hover{
 .header {
     background: #f7f7f7;
     padding: 30px 0;
-    border-bottom: 5px solid #E4E4E4;
+    border-bottom: 0px solid #E4E4E4;
 }
 .header-left {
-    padding: 0;
+    padding: 40;
 }
 .pro-pic {
-    width: 27%;
-}
-.pro-pic img {
-    border: 2px solid #fff;
-    padding: 2px;
-    background: #000;
+    width: 33%;
 }
 
 .pro-text h1 {
-    font-size: 35px;
-    margin: 23px 0 24px;
-	color: #fff;
+    font-size: 42px;
+    margin: 0px 0 24px;
+	color: #000;
 	font-weight: bold;
-    text-transform: uppercase;
+    
 }
 .pro-text p {
     font-size: 15px;
-	color: #fff;
+	color: #000;
 	font-weight: bold;
 
 }
@@ -119,7 +115,7 @@ body a:hover{
     font-size: 14px;
     line-height: 3em;
     list-style-type: none;
-	color: #fff;
+	color: #000;
 	font-weight: bold;
 }
 ul.list-left {
@@ -132,15 +128,15 @@ ul.list-right {
 }
 ul.list-left li {
     font-weight: bold;
-    color: #fff;
+    color: #000;
 }
 .header-right ul li a {
-	color: #fff;
+	color: #000;
 	font-weight: bold;
     text-decoration: none;
 }
 .header{
-    background: url(../images/456.jpg) no-repeat center;
+    background: rgb(214, 252, 252) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -155,7 +151,7 @@ ul.list-left li {
 }
 h3.tittle {
     font-size: 40px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     margin-bottom: 35px;
     color: #10A7AF;
@@ -173,7 +169,7 @@ p.abt-para {
 	background:#f7f7f7;
 }
 .abt-right{
-    background: url(../images/pic4.jpg) no-repeat center;
+    background: rgb(214, 252, 252) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -205,11 +201,11 @@ h3.tittle:after, h3.tittle:before {
     top: 27%;
     left: 0;
     right: 0;
-    color: #fff;
+    color: #000;
 }
 .abt-gd-left h4 {
     margin-top: 40px;
-	color: #fff;
+	color: #000;
 	font-weight: bold;
     font-weight: 100;
     font-size: 22px;
@@ -249,7 +245,7 @@ h3.tittle:after, h3.tittle:before {
 	text-decoration:none;
     padding: 31px 0;
 	font-family: 'Open Sans', sans-serif;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 }
 
 .accordion-section-title.active, .accordion-section-title:hover,.accordion-section-title.focus {
@@ -318,7 +314,7 @@ a.accordion-section-title span {
     font-size: 22px;
     color: #10A7AF;
     margin-bottom: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .employ-right h5 span {
     color: #fff;
@@ -369,7 +365,7 @@ a.accordion-section-title span {
     font-size: 22px;
     color: #10A7AF;
     margin-bottom: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .employ-left2 h5 span {
     color: #fff;
@@ -396,7 +392,7 @@ a.accordion-section-title span {
 /*-- //employment --*/
 /*-- numscroller --*/
 .num-scroller{
-    background: url(../images/1011.jpg) no-repeat center;
+    background: rgb(214, 252, 252) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -406,9 +402,9 @@ a.accordion-section-title span {
 	padding-top:90px; 
 }
 .numscroller {
-    color: #fff;
+    color: #000;
     font-size: 25px;
-    border: 4px solid #fff;
+    border: 4px solid #000;
     width: 146px;
     height: 146px;
     border-radius: 100%;
@@ -421,7 +417,7 @@ a.accordion-section-title span {
     font-size: 22px;
     color: #fff;
     font-weight: 500;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 /*-- //numscroller --*/
 .portfolio{
@@ -445,7 +441,7 @@ a.accordion-section-title span {
     color: #ccc;
     cursor: pointer;
     font-size: 18px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border-bottom: 2px solid #ccc;
     display: inline-block;
     text-align: center;
